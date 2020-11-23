@@ -14,6 +14,7 @@ col_c = random.randint(0,255)
 # Générateur de dessins
 for _ in range(250):
   turtle.pencolor(col_a, col_b, col_c)
+  turtle.left(random.randint(0,360))
   turtle.forward(random.randint(0,25))
   turtle.left(random.randint(0,360))
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
@@ -23,4 +24,5 @@ for _ in range(250):
   turtle.circle(random.randint(0,25), random.randint(0,360))
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.forward(random.randint(0,25))
+  turtle.reset()
 time.sleep(20)

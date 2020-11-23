@@ -5,27 +5,23 @@ import time
 
 screen = turtle.Screen()
 screen.colormode(255)
-
-# Génération de 3 nombres au hasard pour usage RVB
-col_a = random.randint(0,255)
-col_b = random.randint(0,255)
-col_c = random.randint(0,255)
 turtle.speed(9)
 
 # Générateur de dessins
 for _ in range(25):
-  turtle.pencolor(col_a, col_b, col_c)
+  turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.left(random.randint(0,360))
   turtle.forward(random.randint(0,25))
-  turtle.left(random.randint(0,360))
+  turtle.right(random.randint(0,360))
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.forward(random.randint(0,100))
-  turtle.pensize(random.randint(0,10))
+  turtle.pensize(random.randint(0,6))
   turtle.tilt(random.randint(0,360))
   turtle.right(random.randint(0,360))
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.circle(random.randint(0,100), random.randint(0,360))
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.forward(random.randint(0,100))
-  turtle.goto(random.randint(0,200),random.randint(0,200))
+  turtle.pensize(random.randint(0,6))
+  turtle.goto(random.randint(-200,200),random.randint(-200,200))
 time.sleep(5)

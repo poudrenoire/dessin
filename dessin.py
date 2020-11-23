@@ -10,6 +10,7 @@ screen.colormode(255)
 col_a = random.randint(0,255)
 col_b = random.randint(0,255)
 col_c = random.randint(0,255)
+turtle.speed(9)
 
 # Générateur de dessins
 for _ in range(250):

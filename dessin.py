@@ -26,4 +26,4 @@ for _ in range(250):
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.forward(random.randint(0,25))
   turtle.reset()
-time.sleep(20)
+time.sleep(5)

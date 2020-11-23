@@ -2,6 +2,7 @@
 import turtle
 import random
 
+screen = turtle.Screen()
 screen.colormode(255)
 
 # Génération de 3 nombres au hasard pour usage RVB

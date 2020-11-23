@@ -8,5 +8,5 @@ col_b = random.randint(1,255)
 col_c = random.randint(1,255)
 
 # Générateur de dessins
-pencolor(col_a, col_b, col_c)
+turtle.pencolor(col_a, col_b, col_c)
 turtle.forward(50)

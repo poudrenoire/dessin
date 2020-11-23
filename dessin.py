@@ -13,7 +13,7 @@ col_c = random.randint(0,255)
 turtle.speed(9)
 
 # Générateur de dessins
-for _ in range(250):
+for _ in range(25):
   turtle.pencolor(col_a, col_b, col_c)
   turtle.left(random.randint(0,360))
   turtle.forward(random.randint(0,25))

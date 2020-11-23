@@ -13,3 +13,4 @@ col_c = random.randint(0,255)
 # Générateur de dessins
 turtle.pencolor(col_a, col_b, col_c)
 turtle.forward(50)
+sleep()

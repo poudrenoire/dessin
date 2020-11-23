@@ -13,5 +13,11 @@ col_c = random.randint(0,255)
 
 # Générateur de dessins
 turtle.pencolor(col_a, col_b, col_c)
-turtle.forward(50)
+turtle.forward(random.randint(0,100))
+turtle.left(random.randint(0,360))
+turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
+turtle.forward(random.randint(0,100))
+turtle.right(random.randint(0,360))
+turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
+turtle.forward(random.randint(0,100))
 time.sleep(20)

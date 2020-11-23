@@ -21,6 +21,7 @@ for _ in range(25):
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.forward(random.randint(0,100))
   turtle.pensize(random.randint(0,10))
+  turtle.tilt(random.randint(0,360))
   turtle.right(random.randint(0,360))
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.circle(random.randint(0,100), random.randint(0,360))

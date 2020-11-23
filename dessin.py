@@ -21,6 +21,5 @@ for _ in range(250):
   turtle.right(random.randint(0,360))
   turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.circle(random.randint(0,360, random.randint(0,360)
-  turtle.pencolor(random.randint(0,255), random.randint(0,255), random.randint(0,255))
   turtle.forward(random.randint(0,25))
 time.sleep(20)

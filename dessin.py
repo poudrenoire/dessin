@@ -2,7 +2,7 @@
 import turtle
 import random
 
-screen.colormode(255.0)
+screen.colormode(255)
 
 # Génération de 3 nombres au hasard pour usage RVB
 col_a = random.randrange(0.0,255.0)

@@ -6,10 +6,10 @@ screen = turtle.Screen()
 screen.colormode(255)
 
 # Génération de 3 nombres au hasard pour usage RVB
-col_a = random.randrange(0.0,255.0)
-col_b = random.randrange(0.0,255.0)
-col_c = random.randrange(0.0,255.0)
+col_a = random.randint(0,255)
+col_b = random.randint(0,255)
+col_c = random.randint(0,255)
 
 # Générateur de dessins
-turtle.pencolor(float(col_a), float(col_b), float(col_c))
+turtle.pencolor(col_a, col_b, col_c)
 turtle.forward(50)

@@ -29,4 +29,5 @@ for _ in range(25):
 turtle.done()
 
 ts = turtle.getscreen()
-ts.getcanvas().postscript(file=str(uuid.uuid4()))
+#ts.getcanvas().postscript(file=str(uuid.uuid4()))
+#ts.getcanvas().postscript(file='file.eps')

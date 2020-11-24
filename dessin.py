@@ -2,7 +2,7 @@
 import turtle
 import random
 import time
-import Tkinter
+import tkinter
 import uuid
 
 screen = turtle.Screen()

@@ -2,6 +2,8 @@
 import turtle
 import random
 import time
+import Tkinter
+import uuid
 
 screen = turtle.Screen()
 screen.colormode(255)
@@ -24,4 +26,7 @@ for _ in range(25):
   turtle.forward(random.randint(0,100))
   turtle.pensize(random.randint(0,6))
   turtle.goto(random.randint(-200,200),random.randint(-200,200))
-time.sleep(5)
+turtle.done()
+
+ts = turtle.getscreen()
+ts.getcanvas().postscript(file=str(uuid.uuid4())))
